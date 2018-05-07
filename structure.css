@@ -1,3 +1,7 @@
+body {
+	padding-top: 3em;
+}
+
 body * {
 	box-sizing: border-box;
 }
@@ -17,7 +21,6 @@ br.hide{
 
 body {
 	margin: 0;
-	font-size: 16pt;
 	color: #DDDDDD;
 	background-color: #000000;
 /*	user-select: none;*/

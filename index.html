@@ -2,9 +2,12 @@
 <html>
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
 	<title>淡聲音樂節</title>
 	<link href="structure.css" rel="stylesheet">
 	<link href="index.css" rel="stylesheet">
+	<link href="rwd.css" rel="stylesheet">
+	<link href="debug.css" rel="stylesheet">
 	<script src="general.js" type="text/javascript"></script>
 	<meta property="og:image" content="">
 	<meta property="og:type" content="website">
@@ -12,7 +15,166 @@
 	<meta property="og:url" content="">
 	<meta property="og:site_name" content="">
 </head>
-<body><div class="wrap flex column">
+<body><div class="wrap">
+
+	<div id="navbar" class="flex row">
+		<div id="logo"><a href="#nav-title"></a></div>
+		<div id="buttons" class="flex row">
+			<div class="button flex center"><a href="#nav-goal">宗旨</a></div>
+			<div class="button flex center"><a href="#nav-activity">演出活動</a></div>
+			<div class="button flex center"><a href="#nav-timetable">節目表</a></div>
+			<div class="button flex center"><a href="#nav-issue">策展議題(?</a></div>
+			<div class="button flex center"><a href="#nav-route">交通資訊</a></div>
+		</div>
+		<div id="facebook">
+			<a target="_blank"></a>
+		</div>
+	</div>
+
+	<div id="title" class="section flex column">
+		<div id="nav-title" class="nav"></div>
+		<div id="banner">
+			<div id="titlename">
+				<span>淡聲音樂節，可是怎麼直打 QQ</span>
+			</div>
+			<div id="info">
+				<span>這裡要打文字</span><br>
+				<span>這裡要打文字</span><br>
+				<span>這裡要打文字</span>
+			</div>
+		</div>
+		<div id="subtitle" class="flex row center">
+			<span>據說這裡也要放字。</span>
+		</div>
+		<div id="movie">
+			<span>點我看<br>影片 &lt;3</span>
+		</div>
+	</div>
+
+	<div id="goal" class="section">
+		<div id="nav-goal" class="nav"></div>
+		<div class="titletext"><span>宗旨</span></div>
+		<div class="content">
+			<div style="font-size: 5em;text-align: center"><i style="color: #FFFF88!important">訴求</i></div>
+		</div>
+	</div>
+
+	<div id="activity" class="section">
+		<div id="nav-activity" class="nav"></div>
+		<div class="titletext"><span>演出活動</span></div>
+		<div class="content">
+			<div class="items flex row center">
+				<div id="emusic" class="item">
+					<div class="pic"></div>
+					<div class="nametime flex row">
+						<div class="name"><span>電音</span></div>
+						<div class="time"><span>吉時</span></div>
+					</div>
+					<div class="intro">
+						<p>這個活動超棒，一定要來！</p>
+					</div>
+				</div>
+				<div id="wear" class="item">
+					<div class="pic"></div>
+					<div class="nametime flex row">
+						<div class="name"><span>穿戴科技</span></div>
+						<div class="time"><span>吉時</span></div>
+					</div>
+					<div class="intro">
+						<p>這個活動超棒，一定要來！</p>
+					</div>
+				</div>
+				<div id="classic" class="item">
+					<div class="pic"></div>
+					<div class="nametime flex row">
+						<div class="name"><span>色記古典</span></div>
+						<div class="time"><span>吉時</span></div>
+					</div>
+					<div class="intro">
+						<p>這個活動超棒，一定要來！</p>
+					</div>
+				</div>
+				<div id="master" class="item">
+					<div class="pic"></div>
+					<div class="nametime flex row">
+						<div class="name"><span>大師講座</span></div>
+						<div class="time"><span>吉時</span></div>
+					</div>
+					<div class="intro">
+						<p>這個活動超棒，一定要來！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="timetable" class="section">
+		<div id="nav-timetable" class="nav"></div>
+		<div class="titletext"><span>節目表</span></div>
+		<div class="content flex row s-column center">
+			<table><caption>DAY 1</caption><tbody>
+				<tr><th>活動</th><th>時間</th></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+			</tbody></table>
+			<table><caption>DAY 2</caption><tbody>
+				<tr><th>活動</th><th>時間</th></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+				<tr><td>我是活動</td><td>我是時間</td></tr>
+			</tbody></table>
+		</div>
+	</div>
+
+	<div id="issue" class="section">
+		<div id="nav-issue" class="nav"></div>
+		<div class="titletext"><span>策展議題(?</span></div>
+		<div class="content">
+			<div class="flex row p-column center items">
+				<div id="issue1" class="item">
+					<div class="pic"></div>
+					<div class="name">政治退出校園</div>
+					<div class="intro">
+						<p>政治退出校園！</p>
+					</div>
+				</div>
+				<div id="issue2" class="item">
+					<div class="pic"></div>
+					<div class="name">鳳梨退出披薩</div>
+					<div class="intro">
+						<p>鳳梨退出披薩！</p>
+					</div>
+				</div>
+				<div id="issue3" class="item">
+					<div class="pic"></div>
+					<div class="name">工程師的肝</div>
+					<div class="intro">
+						<p>把我的肝還來！</p>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div id="route" class="section">
+		<div id="nav-route" class="nav"></div>
+		<div class="titletext"><span>交通資訊</span></div>
+		<div class="content">
+			<div id="map"></div>
+		</div>
+	</div>
+
 
 	<script src="index.js" type="text/javascript"></script>
 

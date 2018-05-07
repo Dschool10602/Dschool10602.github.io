@@ -1,0 +1,230 @@
+@import url(//fonts.googleapis.com/earlyaccess/notosanstc.css);
+
+body {
+	font-size: 16pt;
+	font-family: 'Noto Sans TC', sans-serif;
+	font-weight: 300;
+/*	color: #000000;*/
+}
+
+/* NAVBAR */
+#navbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 3em;
+	z-index: 2018;
+}
+
+#logo {
+	width: 5em;
+	height: 100%;
+	background-image: url('nopic.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#logo>a{
+	display: block;
+	width: 100%;
+	height: 100%;
+}
+
+#buttons {
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0;
+	        flex: 1 0 0;
+}
+
+#buttons>.button {
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0;
+	        flex: 1 0 0;
+}
+
+#facebook>a{
+	display: block;
+	width: 3em;
+	height: 100%;
+	background-image: url('nopic.png');
+	background-size: contain;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+.section {
+	position: relative;
+}
+
+.section>.content {
+	padding: 0 10% 1em;
+}
+
+.nav {
+	position: relative;
+	top: -3.5em;
+}
+
+.titletext {
+	font-size: 2em;
+	font-weight: 500;
+	text-align: center;
+	margin: 1em 0 .25em;
+}
+
+/* TITLE */
+#title {
+	height: calc(100vh - 3em);
+}
+
+#banner {
+	height: 80%;
+	background-image: url('nopic.png');
+	background-size: contain;
+	background-position: right;
+	background-repeat: no-repeat;
+	position: relative;
+}
+
+#titlename {
+	position: absolute;
+	top: 2em;
+	left: 2em;
+}
+
+#info {
+	position: absolute;
+	bottom: 1.5em;
+	right: 60%;
+}
+
+#subtitle {
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0;
+	        flex: 1 0 0;
+}
+
+#movie {
+	position: absolute;
+	border-radius: 100% 0 0 0;
+	width: 5em;
+	height: 5em;
+	right: 0;
+	bottom: 0;
+}
+
+#movie>span {
+	position: absolute;
+	right: .5em;
+	bottom: .5em;
+}
+
+/* ACTIVITY */
+#activity .items {
+	-webkit-flex-wrap: wrap;
+	    -ms-flex-wrap: wrap;
+	        flex-wrap: wrap;
+}
+
+#activity .item {
+	width: 40%;
+	margin: .5em calc(25% - 20%);
+}
+
+#activity .item .pic {
+	height: 240px;
+}
+
+#activity .item .nametime>* {
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0;
+	        flex: 1 0 0;
+}
+
+#activity .item .time {
+	text-align: right;
+}
+
+#activity #emusic>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#activity #wear>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#activity #classic>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#activity #master>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+
+/* TIMETABLE */
+#timetable .content>table {
+	width: 46%;
+	padding: 0 2%;
+	text-align: center;
+}
+
+/* ISSUE */
+#issue .item {
+	margin: 0 2%;
+	-webkit-flex: 1 0 0;
+	    -ms-flex: 1 0 0;
+	        flex: 1 0 0;
+}
+
+#issue .item .pic {
+	height: 200px;
+}
+
+#issue #issue1>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#issue #issue2>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#issue #issue3>.pic{
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* ROUTE */
+#route>.content {
+	height: calc(100vh - 7em);
+}
+
+#route #map{
+	height: 100%;
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
