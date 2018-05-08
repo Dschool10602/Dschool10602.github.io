@@ -7,6 +7,7 @@ body * {
 }
 
 a, input, textarea, select, button {
+	text-decoration: none;
 	font-size: unset;
 	line-height: unset;
 	border: unset;
@@ -21,8 +22,6 @@ br.hide{
 
 body {
 	margin: 0;
-	color: #DDDDDD;
-	background-color: #000000;
 /*	user-select: none;*/
 }
 /*

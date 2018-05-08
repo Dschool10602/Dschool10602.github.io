@@ -7,9 +7,9 @@
 	<link href="structure.css" rel="stylesheet">
 	<link href="index.css" rel="stylesheet">
 	<link href="rwd.css" rel="stylesheet">
-	<link href="debug.css" rel="stylesheet">
+	<!--link href="debug.css" rel="stylesheet"-->
 	<script src="general.js" type="text/javascript"></script>
-	<meta property="og:image" content="nopic.png">
+	<meta property="og:image" content="og.png">
 	<meta property="og:type" content="website">
 	<meta property="og:description" content="">
 	<meta property="og:url" content="">
@@ -20,11 +20,11 @@
 	<div id="navbar" class="flex row">
 		<div id="logo"><a href="#nav-title"></a></div>
 		<div id="buttons" class="flex row">
-			<div class="button flex center"><a href="#nav-goal">宗旨</a></div>
-			<div class="button flex center"><a href="#nav-activity">演出活動</a></div>
-			<div class="button flex center"><a href="#nav-timetable">節目表</a></div>
-			<div class="button flex center"><a href="#nav-issue">策展議題(?</a></div>
-			<div class="button flex center"><a href="#nav-route">交通資訊</a></div>
+			<div class="button"><a href="#nav-goal" class="flex center"><span>宗旨</span></a></div>
+			<div class="button"><a href="#nav-activity" class="flex center"><span>演出活動</span></a></div>
+			<div class="button"><a href="#nav-timetable" class="flex center"><span>節目表</span></a></div>
+			<div class="button"><a href="#nav-issue" class="flex center"><span>策展議題(?</span></a></div>
+			<div class="button"><a href="#nav-route" class="flex center"><span>交通資訊</span></a></div>
 		</div>
 		<div id="facebook">
 			<a target="_blank"></a>
@@ -35,15 +35,27 @@
 		<div id="nav-title" class="nav"></div>
 		<div id="banner">
 			<div id="titlename">
-				<span>淡聲音樂節，可是怎麼直打 QQ</span>
+				<span>音淡<br>樂聲<br>節</span>
 			</div>
 			<div id="info">
-				<span>這裡要打文字</span><br>
-				<span>這裡要打文字</span><br>
-				<span>這裡要打文字</span>
+				<div class="upper flex row">
+					<div class="left">
+						<div class="upper flex row center">
+							<span>2018. 6/2</span><div></div><span>6/3</span>
+						</div>
+						<div class="lower"><span>淡水文化園區 - 殼牌倉庫</span></div>
+					</div>
+					<div class="right flex column center">
+						<span>10:00</span>
+						<div></div>
+						<span>18:00</span>
+					</div>
+				</div>
+				<div class="lower"><span>淡聲時代新樂章。</span></div>
+				
 			</div>
 		</div>
-		<div id="subtitle" class="flex row center">
+		<div id="subtitle" class="flex row">
 			<span>據說這裡也要放字。</span>
 		</div>
 		<div id="movie">
@@ -171,7 +183,7 @@
 		<div id="nav-route" class="nav"></div>
 		<div class="titletext"><span>交通資訊</span></div>
 		<div class="content">
-			<div id="map"></div>
+			<div id="map"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1518.2685020002884!2d121.44524396833286!3d25.16706652154447!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442af8f76d84275%3A0xbd1503e21a20fcd8!2sShell+Oil+Warehouse+Tamsui!5e0!3m2!1szh-TW!2stw!4v1525768184984" width="100%" height="100%" frameborder="0" style="border:0" allowfullscreen></iframe></div>
 		</div>
 	</div>
 
