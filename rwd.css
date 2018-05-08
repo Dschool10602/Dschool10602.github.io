@@ -4,6 +4,20 @@
 }
 }
 
+@media (max-width: 1300px) and (min-width: 850px) {
+#banner {
+	background-size: 60vh;
+	background-position: top right;
+}
+}
+
+@media (max-width: 850px) and (min-width: 600px) {
+#banner {
+	background-size: 56vh;
+	background-position: 100% 30%;
+}
+}
+
 @media (max-width: 1120px) {
 .section>.content {
 	padding: 0 2em 1em;
@@ -16,9 +30,30 @@
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
-body {
+
+html {
 	font-size: 2.2vw;
 }
+
+#banner {
+	font-size: 2.5vw;
+}
+
+#titlename {
+	top: 4vw;
+	left: 6vw;
+}
+
+#info {
+	bottom: 4vw;
+	left: 6vw;
+}
+
+#subtitle {
+	font-size: 7.5vw;
+	padding-left: 6vw;
+}
+
 .section>.content {
 	padding: 0 1em 1em;
 }
@@ -48,9 +83,19 @@ body {
 	    -ms-flex-direction: column;
 	        flex-direction: column;
 }
-body {
+
+html {
 	font-size: 4vw;
 }
+
+br.s-show{
+	display: initial;
+}
+
+#navbar #buttons {
+	font-size: 0.75em;
+}
+
 .section>.content {
 	padding: 0 1em 1em;
 }
