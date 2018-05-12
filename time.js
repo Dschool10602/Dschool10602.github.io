@@ -9,10 +9,11 @@ function presenttime(){
 	var curtime = new Date()
 	var targettime = new Date(2018,6,2,10,0,0)
 	var time = new Date(targettime.valueOf() - curtime.valueOf())
-	w = addZ(time.getDate())
-	h = addZ(time.getHours())
-	m = addZ(time.getMinutes())
-	s = addZ(time.getSeconds())
+	var passed = (time<=0)
+	w = addZ(time.getUTCDate())
+	h = addZ(time.getUTCHours())
+	m = addZ(time.getUTCMinutes())
+	s = addZ(time.getUTCSeconds())
 	$('#date>.number').innerHTML = w
 	$('#hour>.number').innerHTML = h
 	$('#min>.number').innerHTML = m 
