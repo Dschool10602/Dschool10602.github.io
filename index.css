@@ -105,7 +105,7 @@ body {
 	font-size: 2.5vh;
 	background-color: #C8C8C8;
 	background-image: url('banner2.png');
-	background-size: cover;
+	background-size: contain;
 	background-position: right bottom;
 	background-repeat: no-repeat;
 	position: relative;
@@ -284,29 +284,29 @@ body {
 /*	text-align: right;*/
 }
 
-#activity #emusic>.pic{
+#activity #emusic>.pic {
+	background-image: url('nopic.png');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+#activity #wear>.pic {
 	background-image: url('wear.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#activity #wear>.pic{
-	background-image: url('wear.jpg');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#activity #classic>.pic{
+#activity #classic>.pic {
 	background-image: url('classic.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
-#activity #master>.pic{
-	background-image: url('wear.jpg');
+#activity #master>.pic {
+	background-image: url('nopic.png');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
