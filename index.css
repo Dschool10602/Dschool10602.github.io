@@ -66,7 +66,7 @@ body {
 	width: 3em;
 	height: 100%;
 	background-image: url('nopic.png');
-	background-size: contain;
+	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -105,8 +105,8 @@ body {
 	font-size: 2.5vh;
 	background-color: #C8C8C8;
 	background-image: url('banner.png');
-	background-size: contain;
-	background-position: right;
+	background-size: 160vh;
+	background-position: 100% 0%;
 	background-repeat: no-repeat;
 	position: relative;
 }
@@ -117,7 +117,7 @@ body {
 	left: 6vh;
 	font-size: 4.5em;
 	font-weight: 900;
-	letter-spacing: .8ch;
+	letter-spacing: .25ch;
 	line-height: 1.25em;
 	transform: scaleY(0.8);
 	transform-origin: top left;
@@ -178,7 +178,7 @@ body {
 	    -ms-flex: 1 0 0;
 	        flex: 1 0 0;
 	background-color: #FFFFFF;
-	font-size: 3em;
+	font-size: 7vh;
 	font-weight: 700;
 	-webkit-align-items: center;
 	    -ms-align-items: center;
@@ -187,6 +187,7 @@ body {
 }
 
 #movie {
+	font-size: 0.75em;
 	position: absolute;
 	border-radius: 100% 0 0 0;
 	width: 5em;
@@ -228,7 +229,7 @@ body {
 	height: 240px;
 }
 
-#activity .item .nametime>* {
+#activity .item .nametime>.name {
 	-webkit-flex: 1 0 0;
 	    -ms-flex: 1 0 0;
 	        flex: 1 0 0;
@@ -246,14 +247,14 @@ body {
 }
 
 #activity #wear>.pic{
-	background-image: url('nopic.png');
+	background-image: url('wear.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
 }
 
 #activity #classic>.pic{
-	background-image: url('nopic.png');
+	background-image: url('classic.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
