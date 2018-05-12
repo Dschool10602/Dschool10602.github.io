@@ -35,7 +35,7 @@
 		<div id="nav-title" class="nav"></div>
 		<div id="banner">
 			<div id="titlename">
-				<span>淡聲<br>音樂節</span>
+				<span>音淡<br>樂聲<br>節</span>
 			</div>
 			<div id="info">
 				<div class="upper flex row">
@@ -54,12 +54,18 @@
 				<div class="lower"><span>誕生時代新樂章。</span></div>
 			</div>
 		</div>
-		<div id="subtitle" class="flex row">
-			<span>據說這裡也要放字。</span>
+		<div id="subtitle" class="flex column center">
+			<div class="title">音樂節倒數</div>
+			<div id="time" class="flex row">
+				<div id="date"><div class="number"></div><div class="text">DAY</div></div>
+				<div id="hour"><div class="number"></div><div class="text">HOUR</div></div>
+				<div id="min"><div class="number"></div><div class="text">MINUTE</div></div>
+				<div id="sec"><div class="number"></div><div class="text">SECOND</div></div>
+			</div>
 		</div>
-		<div id="movie">
+		<!--div id="movie">
 			<span>點我看<br>影片 &lt;3</span>
-		</div>
+		</div-->
 	</div>
 
 	<div id="goal" class="section">
@@ -76,44 +82,52 @@
 		<div class="titletext"><span>演出活動</span></div>
 		<div class="content">
 			<div class="items flex row">
-				<div id="emusic" class="item">
+				<div id="emusic" class="item flex row">
 					<div class="pic"></div>
-					<div class="nametime flex row">
-						<div class="name"><span>電音</span></div>
-						<div class="time"><span>吉時</span></div>
-					</div>
-					<div class="intro">
+					<div class="des">
+						<div class="nametime">
+							<div class="name"><span>電音</span></div>
+							<div class="time"><span>吉時</span></div>
+						</div>
+						<div class="intro">
 						<p>這個活動超棒，一定要來！</p>
+						</div>
 					</div>
 				</div>
-				<div id="wear" class="item">
+				<div id="wear" class="item flex row">
 					<div class="pic"></div>
-					<div class="nametime flex row">
-						<div class="name"><span>穿戴科技</span></div>
-						<div class="time"><span>吉時</span></div>
-					</div>
-					<div class="intro">
+					<div class="des">
+						<div class="nametime">
+							<div class="name"><span>穿戴科技</span></div>
+							<div class="time"><span>吉時</span></div>
+						</div>
+						<div class="intro">
 						<p>這個活動超棒，一定要來！</p>
+						</div>
 					</div>
 				</div>
-				<div id="classic" class="item">
+				<div id="classic" class="item flex row">
 					<div class="pic"></div>
-					<div class="nametime flex row">
-						<div class="name"><span>色計古典-淡水河文藝復興</span></div>
-						<div class="time"><span>吉時</span></div>
-					</div>
-					<div class="intro">
+					<div class="des">
+						<div class="nametime">
+							<div class="name"><span>色計古典-淡水河文藝復興</span></div>
+							<div class="time"><span>吉時</span></div>
+						</div>
+						<div class="intro">
 						<p>色計古典讓民眾能夠自由表達自己對音樂的詮釋，與來自四面八方的人們共同譜出屬於最獨特的樂章，打破大家對於古典音樂的刻板印象，開啟屬於我們自己的古典時代。</p>
+						</div>
 					</div>
 				</div>
-				<div id="master" class="item">
+				<div id="master" class="item flex row">
 					<div class="pic"></div>
-					<div class="nametime flex row">
-						<div class="name"><span>大師講座</span></div>
-						<div class="time"><span>吉時</span></div>
-					</div>
-					<div class="intro">
+					<div class="des">
+						<div class="nametime">
+							<div class="name"><span>大師講座</span></div>
+							<div class="time"><span>吉時</span></div>
+						</div>
+						<div class="intro">
 						<p>這個活動超棒，一定要來！</p>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -187,8 +201,8 @@
 		</div>
 	</div>
 
-
 	<script src="index.js" type="text/javascript"></script>
+	<script src="time.js" type="text/javascript"></script>
 
 </div></body>
 </html>
