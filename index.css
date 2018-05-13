@@ -468,7 +468,7 @@ body {
 }
 
 #member .item>.des {
-	padding: 0 0 0 2ch;
+	padding: 0 0 0 1ch;
 	-webkit-flex: 1 0 0;
 	    -ms-flex: 1 0 0;
 	        flex: 1 0 0;
@@ -488,7 +488,7 @@ body {
 	    -ms-flex: 1 0 0;
 	        flex: 1 0 0;*/
 	width: 100%;
-	font-size: 1.5em;
+	font-size: 1em;
 	font-weight: 500;
 	text-align: left;
 }

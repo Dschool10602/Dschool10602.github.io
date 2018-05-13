@@ -49,7 +49,7 @@
 }
 
 #subtitle {
-	font-size: 7.5vw;
+	font-size: 8vw;
 }
 }
 
@@ -94,7 +94,13 @@ html {
 	height: 50vh;
 }
 
-@media (max-width: 480px) {
+#member>.content{
+	padding-left: 2%;
+	padding-right: 2%;
+}
+}
+
+@media (max-width: 600px) {
 .s-column {
 	-webkit-flex-direction: column;
 	    -ms-flex-direction: column;
@@ -123,8 +129,8 @@ br.s-show{
 }
 
 #activity .item {
-	width: 100%;
-	margin: 0;
+	width: 90%;
+	margin: 0 5%;
 }
 
 #activity .item .pic {
@@ -145,10 +151,23 @@ br.s-show{
 }
 
 #issue .item {
-	width: 100%;
+	margin: .5em 5%;
+	width: 90%;
 }
 
 #issue .item .pic {
 	height: 50vh;
+}
+
+#member .item {
+	width: 90%;
+	margin: .5em 5%;
+	padding: .5em;
+}
+
+#member .item .pic {
+	width: 20vw;
+	height: 20vw;
+	border-radius: 5px;
 }
 }
