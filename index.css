@@ -304,7 +304,7 @@ body {
 }
 
 #activity #synth>.pic {
-	background-image: url('nopic.png');
+	background-image: url('synth.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center;
@@ -333,6 +333,14 @@ body {
 #timetable {
 	background-color: #A42028;
 	color: #FFFFFF;
+}
+
+#timetable .content {
+	background-image: url('timeline.png');
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	height: 80vh;
 }
 
 #timetable .content>table {
