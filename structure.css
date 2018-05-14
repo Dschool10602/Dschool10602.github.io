@@ -12,6 +12,10 @@ a, input, textarea, select, button {
 	background-color: unset;
 }
 
+small {
+	color: #CCCCCC
+}
+
 br.hide{
 	display: none;
 }

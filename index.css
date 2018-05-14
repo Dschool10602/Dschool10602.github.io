@@ -43,6 +43,10 @@ body {
 	        flex: 1 0 0;
 }
 
+#buttons>.blank {
+	width: calc(100vw - 70ch);
+}
+
 #buttons>.button {
 	-webkit-flex: 1 0 0;
 	    -ms-flex: 1 0 0;
