@@ -334,7 +334,7 @@ body {
 	background-color: #A42028;
 	color: #FFFFFF;
 }
-
+/*
 #timetable .content {
 	background-image: url('timeline.png');
 	background-size: contain;
@@ -342,7 +342,7 @@ body {
 	background-position: center;
 	height: 80vh;
 }
-
+*/
 #timetable .content>table {
 	width: 46%;
 	padding: 0 2%;
