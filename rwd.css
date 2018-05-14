@@ -30,6 +30,10 @@
 .section>.content {
 	padding: 0 2em 1em;
 }
+
+#goal>.content {
+	font-size: 1.25em;
+}
 }
 
 @media (max-width: 850px)
@@ -157,6 +161,10 @@ br.s-show{
 
 #issue .item .pic {
 	height: 50vh;
+}
+
+#issue .item .pic>.des {
+	opacity: 1;
 }
 
 #member .item {

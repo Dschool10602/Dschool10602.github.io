@@ -238,7 +238,8 @@ body {
 }
 
 #goal>.content {
-	font-size: 1.25em;
+	font-size: 1.5em;
+	font-weight: 400; 
 	padding-bottom: 0;
 }
 
@@ -453,7 +454,7 @@ body {
 
 /* MEMBER */
 #member {
-	background-color: #1899DB;
+	background-color: #FFFFFF;
 }
 
 #member>.content{
