@@ -459,11 +459,13 @@ body {
 /* MEMBER */
 #member {
 	background-color: #FFFFFF;
+	font-size: .8em;
 }
 
 #member>.content{
-	padding-left: 10%;
-	padding-right: 10%;
+	padding-left: calc(50% - 400px);
+	padding-right: calc(50% - 400px);
+	text-align: center;
 }
 
 #member .items {
@@ -473,32 +475,15 @@ body {
 }
 
 #member .item {
-	width: 48%;
-	margin: .5em calc(25% - 24%);
+	margin: .5em;
 	padding: .5em;
-	background-color: #FFFFFF;
-	border-radius: 5px;
-	transition: background-color 150ms;
-}
-
-#member .item:hover {
-	background-color: #C8C8C8;
-}
-
-#member .item>.des {
-	padding: 0 0 0 1ch;
-	-webkit-flex: 1 0 0;
-	    -ms-flex: 1 0 0;
-	        flex: 1 0 0;
+	display: inline-block;
 }
 
 #member .item .pic {
-	width: 10vw;
-	height: 10vw;
 	border-radius: 5px;
-}
-
-#member .item .pic {
+	margin: 1em;
+	text-align: center;
 }
 
 #member .item .name {
@@ -507,83 +492,30 @@ body {
 	        flex: 1 0 0;*/
 	width: 100%;
 	font-size: 1em;
-	font-weight: 500;
-	text-align: left;
+	font-weight: 300;
+	text-align: center;
 }
 
-#member #ntudschool>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#member #dschool img,
+#member #farm img,
+#member #ncuee img {
+	height: 100px;
 }
 
-#member #ntuproj>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#member #ntnumusic img {
+	height: 2em;
 }
 
-#member #ntnumusic>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#member #nccuit img {
+	height: 2em;
 }
 
-#member #nccuit>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#member #dct img {
+	height: 4em;
 }
 
-#member #nccudigital>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #company>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #ncuee>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #ntuclub>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #nccually>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #ntnufest>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
-}
-
-#member #techdep>.pic {
-	background-image: url('nopic.png');
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-position: center;
+#member #click img,
+#member #gloria img,
+#member #mst img {
+	height: 2em;
 }

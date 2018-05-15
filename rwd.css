@@ -99,8 +99,9 @@ html {
 }
 
 #member>.content{
-	padding-left: 2%;
-	padding-right: 2%;
+	padding-left: calc(50% - 450px);
+	padding-right: calc(50% - 450px);
+	text-align: center;
 }
 }
 
@@ -166,17 +167,5 @@ br.s-show{
 #issue .item .pic>.des {
 	opacity: 1;
 	height: 100%;
-}
-
-#member .item {
-	width: 90%;
-	margin: .5em 5%;
-	padding: .5em;
-}
-
-#member .item .pic {
-	width: 20vw;
-	height: 20vw;
-	border-radius: 5px;
 }
 }
