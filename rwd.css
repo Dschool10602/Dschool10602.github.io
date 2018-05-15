@@ -160,11 +160,12 @@ br.s-show{
 }
 
 #issue .item .pic {
-	height: 50vh;
+	height: auto;
 }
 
 #issue .item .pic>.des {
 	opacity: 1;
+	height: 100%;
 }
 
 #member .item {
