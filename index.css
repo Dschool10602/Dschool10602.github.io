@@ -216,22 +216,39 @@ body {
 	color: #C8C8C8;
 }
 
-#movie {
+#movie,
+#movie-m {
 	font-size: 0.75em;
 	position: absolute;
 	border-radius: 100% 0 0 0;
-	width: 5em;
-	height: 5em;
+	width: 8em;
+	height: 8em;
 	right: 0;
 	bottom: 0;
-	background-color: #A42028;
 	color: #FFFFFF;
+	background-color: #A42028;
 }
 
-#movie>span {
+#movie>div,
+#movie-m>div {
 	position: absolute;
-	right: .5em;
-	bottom: .5em;
+	bottom: 10%;
+	right: 10%;
+	width: 60%;
+	height: 60%;
+	float:right bottom;
+	background-image: url('youtube.png');
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+#movie-m {
+	display: none;
+}
+
+#youtube {
+	display: none;
 }
 
 /* GOAL */
@@ -309,10 +326,10 @@ body {
 }
 
 #activity #synth>.pic {
-	background-image: url('synth.jpg');
+	background-image: url('synth2.jpg');
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: 0% 30%;
 }
 
 #activity #dance>.pic {
