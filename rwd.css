@@ -133,6 +133,13 @@ br.s-show{
 	line-height: 1.5em;
 }
 
+#movie,
+#movie-m {
+	width: 4em;
+	height: 4em;
+}
+
+
 .section:not(#title) {
 	padding: .5em 0 .75em;
 }
