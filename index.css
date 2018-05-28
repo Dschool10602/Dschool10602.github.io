@@ -81,7 +81,7 @@ body {
 }
 
 .section:not(#title) {
-	padding: 2.5em 0 2.75em;
+	padding: 1.5em 0 2em;
 }
 
 .section>.content {
@@ -288,11 +288,13 @@ body {
 /* ACTIVITY */
 #activity {
 	background-color: #FFFFFF;
+	padding-bottom: 0;
 }
 
 #activity>.content{
 	padding-left: 2%;
 	padding-right: 2%;
+	padding-bottom: 0;
 }
 
 #activity .items {
@@ -373,24 +375,48 @@ body {
 }
 
 /* TIMETABLE */
-#timetable {
-	background-color: #A42028;
+#timetable:not(#title) {
+	background-color: /*#A42028*/ #FFFFFF;
 	color: #FFFFFF;
+	padding: 0;
 }
-/*
+
 #timetable .content {
-	background-image: url('timeline.png');
-	background-size: contain;
+	position: relative;
+	padding: 0;
+	height: calc(100vh - 3rem);
+}
+
+#timetable .content .layer {
+	width: 100%;
+	height: 100%;
 	background-repeat: no-repeat;
+}
+
+#timetable-bg {
+	background-image: url('timetable-bg2.png');
+	background-size: cover;
 	background-position: center;
-	height: 80vh;
 }
-*/
-#timetable .content>table {
-	width: 46%;
-	padding: 0 2%;
-	text-align: center;
+
+#timetable-content {
+	background-image: url('timetable-content.png');
+	background-size: contain;
+	background-position: center;
 }
+
+#timetable-title {
+	background-image: url('timetable-title.png');
+	background-size: contain;
+	background-position: top right;
+}
+
+#timetable-pepper {
+	background-image: url('timetable-pepper.png');
+	background-size: contain;
+	background-position: bottom left;
+}
+
 
 /* ISSUE */
 #issue {

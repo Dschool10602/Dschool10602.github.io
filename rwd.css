@@ -161,11 +161,6 @@ br.s-show{
 	padding: 0.5em 0;
 }
 
-#timetable .content>table {
-	width: 100%;
-	margin: .5em 0;
-}
-
 #issue {
 	height: auto;
 }
