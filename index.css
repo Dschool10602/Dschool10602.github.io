@@ -133,7 +133,7 @@ body {
 /*	top: calc(4vh - 1.25em);
 	left: calc(6vh + 25ch);*/
 	bottom: 4vh;
-	left: 6vh;	
+	left: 6vh;
 	font-weight: 700;
 	transform: scaleY(0.8);
 	transform-origin: bottom left;
@@ -281,7 +281,7 @@ body {
 
 #goal>.content {
 	font-size: 1.5em;
-	font-weight: 400; 
+	font-weight: 400;
 	padding-bottom: 0;
 }
 
@@ -391,6 +391,10 @@ body {
 	width: 100%;
 	height: 100%;
 	background-repeat: no-repeat;
+}
+
+#timetable-mbg {
+	display: none;
 }
 
 #timetable-bg {

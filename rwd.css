@@ -161,6 +161,33 @@ br.s-show{
 	padding: 0.5em 0;
 }
 
+#timetable .content {
+	height: auto;
+}
+
+#timetable-bg {
+	display: none;
+}
+
+#timetable-mbg {
+	display: block;
+	background-image: url('timetable-mbg2.png');
+	background-size: cover;
+	background-position: center;
+}
+
+#timetable-mpepper {
+	background-image: url('timetable-pepper.png');
+	background-size: contain;
+	background-position: bottom left;
+}
+
+#timetable-mcontent1,
+#timetable-mcontent2 {
+	margin: 0 2em;
+	width: calc(100% - 4em)!important;
+}
+
 #issue {
 	height: auto;
 }
