@@ -14,9 +14,6 @@ function presenttime(){
 	h = addZ(time.getUTCHours())
 	m = addZ(time.getUTCMinutes())
 	s = addZ(time.getUTCSeconds())
-	$('#hour>.number').innerHTML = h
-	$('#min>.number').innerHTML = m
-	$('#sec>.number').innerHTML = s
 	setTimeout(presenttime,1000)
 }
 
